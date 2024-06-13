@@ -1,0 +1,170 @@
+.nav-link{
+    transition: all 0.2s;
+}
+.nav-link:hover{
+    border-bottom: 3px solid #ff0000;
+}
+.header{
+    background-color: #ff0000;
+}
+.image{
+    height: 656px;
+    filter: brightness(35%);
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    max-height: 200px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.txt > i{
+    color: #ff0000;
+}
+.button{
+    background-color: red;
+    cursor: pointer;
+}
+.bot{
+    border: none;
+    background-color: red;
+    color: white;
+}
+.link{
+    cursor: pointer;
+    background-color: #ff0000;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.link:hover{
+    border:1px solid #ff0000;
+    background-color: #fff;
+    color: #ff0000;
+}
+.bot:hover{
+    border:1px solid #ff0000;
+    background-color: #fff;
+    color: #ff0000;
+}
+.hr{
+    display: inline-block;
+    width: 110px;
+    height: 2px;
+    background-color: red;
+    margin-left: 10px;
+    position: relative;
+    top: -3px;
+}
+
+.bg-img{
+    background-image: url('./images/bg-text.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+}
+.bg-img-admission{
+    background-image: url('./images/admission.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+}
+.bg-img-academic{
+    background-image: url('./images/academic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+}
+.bg-img-new{
+    background-image: url('./images/new.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+}
+.bg-img-contact{
+    background-image: url('./images/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+}
+.bg-text{
+    background-color: rgb(18, 18, 107);
+    cursor: pointer;
+    border-left: #ff0000;
+}
+
+.bg-text:first-child{
+    background-color: rgb(35, 164, 250);
+    border-left: none;
+}
+.bg-text:last-child{
+    background-color: rgb(55, 55, 237);
+    border-left: none;
+}
+.bg-text:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+/* subscribe */
+.bg-image,.bg-img{
+    background-color: #e5e4e4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+}
+.footer>li{
+    list-style: none;
+    cursor: pointer;
+}
+.footer >li:hover{
+    color: #ff0000;
+}
+.icon{
+    border: 1px solid red;
+    border-radius: 3px;
+    cursor: pointer;
+    color: red;
+}
+.icon:hover{
+    background-color: #ff0000;
+    color: #fff;
+}
+u{
+    color: red;
+}
+
+.bg-about{
+    background-image: url(./images/about1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+}
+
+.danger{
+    background-color: #ff0000;
+    color: #fff;
+}
+.carousel-caption h5{
+    font-size: 80px;
+    color: #ff0000;
+}
+.carousel-caption p{
+    font-size: 50px;
+    margin-bottom: 100px;
+    color: #ff0000;
+}
+.slide{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
